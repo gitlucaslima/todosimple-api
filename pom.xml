@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.lucaslima</groupId>
 	<artifactId>todosimple</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>todosimple</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -51,6 +51,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.26</version>
 		</dependency>
 
 	</dependencies>

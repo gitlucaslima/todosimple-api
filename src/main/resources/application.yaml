@@ -36,3 +36,8 @@ logging:
 # Server configuration
 server:
   port: 8080 #set your port
+
+  # swagger-ui custom path
+springdoc:
+  swagger-ui:
+    path: docs

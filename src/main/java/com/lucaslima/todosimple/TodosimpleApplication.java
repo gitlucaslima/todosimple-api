@@ -11,10 +11,10 @@ import io.swagger.v3.oas.annotations.info.Info;
 
 @SpringBootApplication
 @RestController
-@RequestMapping(value = "pessoas")
+@RequestMapping(value = "")
 @OpenAPIDefinition(
 	info = @Info(
-		title = "Peritos",
+		title = "TODOLIST",
 		version = "1.0.0",
 		description = "Versão de teste de documentação"
 	)

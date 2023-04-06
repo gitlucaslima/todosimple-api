@@ -27,6 +27,9 @@ spring:
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     open-in-view: false
+    properties:
+      hibernate.format_sql: true
+    generate-ddl: true
 
 # Logger configuration
 logging:
